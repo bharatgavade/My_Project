@@ -1,0 +1,55 @@
+/* Using ID selectors in external CSS */
+/* #h2Title{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+} */
+
+.title{
+    background-color: gray;
+    border: 1px groove gray;
+    padding: 10px;
+    padding-left: 0;
+    margin: 20px;
+    border-radius: 5px;
+    margin-left: 0;
+    padding: 20px 10px 5px 30px;
+    margin: 20px 10px 5px 30px;
+        /* Top right bottom left */
+
+    margin: 30px 10px;
+        /* TopBottom leftRight */
+
+}
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+/* Using Class Selector */
+.mandatory_fields{
+    font-weight: bold;
+}
+
+.container{
+    background-color: lightblue;
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv3U83FjzHRYSy9clMmu4bFAvRO7eCkBMjIY5sP5szipeD6wGIJCz1fmZbOm0iv6wvEKk&usqp=CAU); */
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px;
+    border-width: 10px;
+}
+.header{
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv3U83FjzHRYSy9clMmu4bFAvRO7eCkBMjIY5sP5szipeD6wGIJCz1fmZbOm0iv6wvEKk&usqp=CAU);
+}
+/* block level element to inline element 
+ CSS property 
+
+ display: inline-block;
+ display : block;
+ display : inline;
+*/

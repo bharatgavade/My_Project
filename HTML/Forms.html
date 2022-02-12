@@ -1,13 +1,31 @@
 <html>
     <head>
         <title>Signup Form</title>
+
+        <link rel="stylesheet" href="Forms.css">
+        <style>
+            /* This is using ID selector */
+            #h2Title{
+                font-size: xx-large;
+            }
+        </style>
     </head>
+    
     <body>
-        <h2 name="h2Title">SignUp Form</h2>
-        <form>
+        <div class="header">
+            <h1><b>Bharat Gavade</b></h1>
+            
+
+        </div>
+
+
+        <!-- <h2 id="h2Title" style="color: rgb(255, 0, 157);">SignUp Form</h2> -->
+
+        <h2 class="title" style="color: rgb(158, 12, 12);">SignUp Form</h2>
+        <form class="container">
             <!-- Input is self colssing tag -->
             <div>
-                <label name="lblEmail" for="inputEmail">Email Address</label>
+                <label class="mandatory_fields" for="inputEmail">Email Address</label>
                 <input type="email" name="inputEmail">
             </div>
             
