@@ -1,0 +1,47 @@
+
+.body{
+    margin:  20px !important;
+}
+
+
+.parent{
+    position: absolute;
+    padding: 4%;
+    border: 1px solid green;
+    /* Create a flexible container which makes all items flexible */
+    display: flex;
+    background-color: coral;
+    height: 600px;
+    /* Aligns flexibile items horizontally */
+    justify-content: center ;
+
+    /* Aligns flexibile items vertically */
+    align-items: start;
+    /* flex-direction: column; */
+}
+
+.child{
+    display: flex;
+    background-color: yellow;
+    border: 1px solid black;
+    margin: 2%;
+    height: 150px;
+    font-style: italic;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide{
+    /* display:none; */
+    /* visibility: hidden; */
+}
+
+.position{
+    /* Static is default value of position foe every element in html */
+    position: absolute;
+    /* when position is static below properties not working */
+    left: 100px;
+    top: 40px;
+    
+}
