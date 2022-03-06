@@ -11,7 +11,7 @@ let x = null; // empty.
 let y; // empty
 
 console.log(x==y); // true. because value of x and y are same
-console.log(x===y); // false. object!=undefined
+console.log(x===y); // false. dataTypes-( object!=undefined)
 
 let num1 = 10; // number
 let num2 = "10"; // string
