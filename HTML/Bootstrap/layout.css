@@ -1,0 +1,4 @@
+.bg-danger {
+    --bs-bg-opacity: 1;
+    background-color: rgb(128, 36, 36) !important;
+}
