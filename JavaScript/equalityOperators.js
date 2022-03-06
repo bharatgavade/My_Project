@@ -5,6 +5,7 @@
 
 // == [Checks for equality of values]
 // === [Checks for euqality of values and equality of dataType]
+// === -  (it checks value as well as it's dataTypes)
 
 let x = null; // empty.
 let y; // empty
