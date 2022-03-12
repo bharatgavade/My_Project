@@ -31,3 +31,17 @@ console.log(arrayOfNumners)
 
 console.log(arrayOfNumners.length)
 
+// 8. how to get part of an array.
+console.log("8")
+const subArray = arrayOfNumners.splice(1,4)
+console.log(subArray)
+
+// 9. How to find an element in array based on condition.
+// [10,]
+const result = arrayOfNumners.find(e=> e==30)
+console.log(result)
+
+// 10. How to find multiple elements in array based on acondition
+
+const numberGreaterThen40 = arrayOfNumners.filter(e=> e>40)
+console.log(numberGreaterThen40)
