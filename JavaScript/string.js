@@ -22,5 +22,6 @@ console.log(password.endsWith("91"))
 
 // 6. print from charater how many string is there
 let empname="dadvdid"
-console.log(empname.indexOf("d",2))
+console.log(empname.indexOf("d",1))
+
 
