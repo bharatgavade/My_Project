@@ -9,6 +9,9 @@ function calculateToatalPrice(costOfFood, taxes, deliveryCharges=10){
 }
 
 // general membership.
-calculateToatalPrice(400,20,30)
+calculateToatalPrice(400,20,30) 
 
-calculateToatalPrice(400,20)
+//pro membership
+calculateToatalPrice(400,20) //430 Uses 10 for delivery charges
+
+calculateToatalPrice(400,20,50) //470 uses 50 as delivery charges
